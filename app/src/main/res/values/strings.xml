@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Health</string>
+    <!-- Common Strings -->
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="dob_hint">Date of Birth</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="stay_connected">Stay connected</string>
+    <string name="show_password">Show</string>
+    <string name="hide_password">Hide</string>
+
+    <!-- Sign In Screen -->
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="no_account">Don\'t have an account? Sign Up</string>
+
+    <!-- Sign Up Screen -->
+    <string name="sign_up">Sign Up</string>
+    <string name="have_account">Already have an account? Sign In</string>
+    <string name="weak_password">Password must be at least 8 characters</string>
+    <string name="confirm_password"> Confirm password</string>
+
+    <!-- Forgot Password Screen -->
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_instructions">Enter your email to receive reset instructions</string>
+
+    <!-- Messages -->
+    <string name="auth_success">Authentication successful</string>
+    <string name="auth_failed">Authentication failed: %s</string>
+    <string name="email_in_use">Email already in use</string>
+    <string name="try_sign_in">Try signing in?</string>
+    <string name="reset_email_sent">Password reset email sent to %s</string>
+    <string name="field_required">This field is required</string>
+    <string name="invalid_email">Please enter a valid email</string>
+    <!-- Preferences -->
+    <string name="auth_prefs">auth_preferences</string>
+    <string name="pref_stay_connected">pref_stay_connected</string>
+    <string name="pref_user_email">pref_user_email</string>
+    <string name="prefs_name">MyAppPrefs</string>
+    <!-- pairingActivity -->
+    <string name="welcome_pairing">Welcome to Pairing Activity</string>
+    <string name="pair_device">Pair Device</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="scan_prompt">Scan a QR code to pair your device</string>
+    <string name="scan_cancelled">Scan cancelled</string>
+    <string name="scan_success">Scanned data: %s</string>
+    <string name="camera_permission_rationale">Camera permission is required to scan QR codes. Please grant the permission.</string>
+    <string name="camera_permission_denied">Camera permission was denied. You can enable it in app settings.</string>
+    <string name="invalid_qr_code">Invalid QR code format</string>
+    <string name="pairing_expired">QR code expired (5 minute limit)</string>
+    <string name="pairing_success">Watch paired successfully!</string>
+    <string name="scanner_error">Error launching scanner</string>
+    <string name="invalid_pairing_code">Invalid pairing code</string>
+    <string name="db_error">Database error</string>
+    <!-- PatientInfoActivity -->
+    <string name="p_first_name_hint">First Name</string>
+    <string name="p_last_name_hint">Last Name</string>
+    <string name="p_dob_hint">Date of Birth (MM/DD/YYYY)</string>
+    <string name="p_weight_hint">Weight (kg)</string>
+    <string name="height_hint">Height (cm)</string>
+    <string name="save_button_text">Save and Start Monitoring</string>
+    <string name="required_field_error">Required</string>
+    <string name="data_saved_success">Patient data saved successfully</string>
+    <string name="data_save_error">Error saving data: %s</string>
+    <string name="invalid_data_format">Invalid data format</string>
+    <string name="invalid_date_format">Please use MM/DD/YYYY format</string>
+    <string name="invalid_number_format">Please enter a valid number</string>
+    //
+    <string name="saving">Saving…</string>
+    //
+    <string name="save">Save</string>
+    <string name="sync_required">Sync Required</string>
+    <string name="manual_sync_instructions">Please ensure your watch is connected to the internet and try syncing again.</string>
+    <string name="sync_now">Sync Now</string>
+    <string name="later">Continue Anyway</string>
+    <string name="error_data_not_saved">Data not saved. Please try again.</string>
+    <string name="back_button_text">Back to Sign In</string>
+    <!-- MainActivity -->
+    <string name="heart_rate">Heart Rate</string>
+    <string name="location">Location</string>
+    <string name="welcome_message">Welcome to Health App</string>
+    <!-- HeartRateActivity -->
+    <string name="measure">Measure</string>
+    <string name="history">History</string>
+    <string name="heart_rate_monitoring">Heart Rate Monitoring</string>
+    <string name="current_heart_rate">Current Heart Rate</string>
+    <string name="stop_measurement">Stop Measurement</string>
+    <!-- HeartRateHistoryActivity -->
+    <string name="No_data_available">No data available</string>
+
+
+</resources>
